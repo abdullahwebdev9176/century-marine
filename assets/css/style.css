@@ -356,6 +356,10 @@ ul {
     line-height: normal;
 }
 
+.location-text {
+    color: var(--white, #FFF) !important;
+}
+
 .right-nav .right-list .location-dropdown {
     position: relative;
 }

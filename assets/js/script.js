@@ -133,3 +133,36 @@ $('.arrival-slider').owlCarousel({
         }
     }
 })
+
+
+// locaiton dropdown toggle
+
+$(document).ready(function () {
+
+    $('.toggle-location-dropdown').on('click', function (e) {
+        e.preventDefault();
+
+        const $dropdown = $(this).siblings('.location-dropdown-list');
+        $dropdown.slideToggle(200);
+    });
+
+    $('.location-dropdown-list a').on('click', function (e) {
+        e.preventDefault();
+
+        const location = $(this).data('location');
+        const phone = $(this).data('phone');
+
+        const $parent = $(this).closest('.location-dropdown');
+        $parent.find('.location-text').text(location);
+        $parent.find('.phone-text').text(phone);
+
+        $parent.find('.location-dropdown-list').slideUp(200);
+    });
+
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest('.location-dropdown').length) {
+            $('.location-dropdown-list').slideUp(200);
+        }
+    });
+
+});
