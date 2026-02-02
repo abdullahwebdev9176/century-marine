@@ -62,6 +62,12 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $('.company-dropdown').click(function () {
+        $('.desktop-right-dropdown').toggleClass('show-company-dropdown');
+    })
+})
+
 $('.toggle-mobile-menu').on('click', function () {
     var menuTitle = $(this).attr("data-title");
     var $menu = $("#" + menuTitle);
