@@ -23,7 +23,7 @@
 <body>
 
 
-    <!-- desktop header start here -->
+<!-- desktop header start here -->
 
     <div class="desktop-header">
         <div class="header-container">
@@ -31,36 +31,35 @@
                 <div class="logo-box">
                     <div class="header-logo">
                         <a href="/">
-                            <img src="./assets/images/site-logo/sports-marine-logo.png" alt="Century Marine">
+                            <img src="./assets/images/site-logo/century-marine.webp" alt="Century Marine">
                         </a>
                     </div>
                 </div>
                 <div class="centaral-nav-box">
                     <div class="centaral-nav">
                         <ul>
-                            <li class="toggle-menu" data-title="service"><a href="javascript:void(0)"
-                                    class="centaral-nav-link" id="header-boat-sales">Expert Service</a></li>
 
-                            <li class="toggle-menu" data-title="inventory"><a id="header-sell-trade"
-                                    href="javascript:void(0)" class="centaral-nav-link">Inventory</a></li>
+                            <li class="toggle-menu" data-title="inventory"><a id="header-desktop-boats"
+                                    href="javascript:void(0)" class="centaral-nav-link">Boat Sales</a></li>
+
+                            <li class="toggle-menu" data-title="service"><a href="javascript:void(0)"
+                                    class="centaral-nav-link" id="header-service">Service</a></li>
+
 
                             <li>
-                                <a id="header-service-dropdown" href="javascript:void(0)"
+                                <a id="header-service-tab" href="javascript:void(0)"
                                     class="centaral-nav-link dropdown-link">
-                                    <span>Financing</span>
+                                    <span>Pro Shop</span>
                                 </a>
 
                             </li>
 
-                            <li><a id="header-events" href="javascript:void(0)" class="centaral-nav-link">More From
-                                    Century Marine</a>
-                            </li>
+                            <li>
+                                <a id="header-events-tab" href="javascript:void(0)"
+                                    class="centaral-nav-link dropdown-link">
+                                    <span>Events</span>
+                                </a>
 
-                            <li class="header-search-box">
-                                <div class="header-search">
-                                    <span class="fa fa-search"></span>
-                                    <input type="text" class="d-none" placeholder="Search boats">
-                                </div>
                             </li>
 
                         </ul>
@@ -68,14 +67,39 @@
                 </div>
                 <div class="right-nav-box">
                     <div class="right-nav">
-                        <ul>
-                            <li>
-                                <div class="header-location-box">
-                                    <h6>Newport News, VA 23602</h6>
-                                    <p><a href="tel:+17575959333">757.595.9333</a></p>
-                                </div>
+                        <ul class="right-list">
+                            <li class="location-dropdown">
+                                <a href="javascript:void(0)" class="toggle-location-dropdown">
+                                    <span class="location-text">Mesa, AZ</span>
+                                    <span class="phone-text">(480) 835-9134</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+
+                                <ul class="location-dropdown-list" style="display: none;">
+                                    <li>
+                                        <a href="javascript:void(0)" data-location="Lake Pleasant, AZ"
+                                            data-phone="(480) 835-9134">
+                                            Lake Pleasant, AZ <span>(480) 835-9134</span>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="javascript:void(0)" data-location="Mesa, AZ"
+                                            data-phone="(480) 835-9134">
+                                            Mesa, AZ <span>(480) 835-9134</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+
+                            <li class="company-dropdown">
+                                <a href="javascript:void(0)">Company <i class="fa fa-bars"></i></a>
                             </li>
                         </ul>
+
+
                     </div>
                 </div>
             </div>
@@ -101,13 +125,14 @@
                                 <li><a id="header-new-boats" href="/new-boats-for-sale">New Boats</a></li>
                                 <li><a id="header-used-boats" href="/used-pre-owned-boats-for-sale">Pre-Owned Boats</a>
                                 </li>
-                                <li><a id="header-trailers" href="">Promotional</a></li>
-                                <li><a id="header-motors" href="">Trailer Sales</a>
+                                <li><a id="header-trailers" href="javascript:void(0)">Promotional</a></li>
+                                <li><a id="header-motors" href="javascript:void(0)">Trailer Sales</a>
                                 </li>
                             </ul>
 
                             <ul>
-                                <li><a id="header-Consign-cta" href="">Consign/Trade Your Boat</a></li>
+                                <li><a id="header-Consign-cta" href="javascript:void(0)">Consign/Trade Your Boat</a>
+                                </li>
                             </ul>
 
                         </div>
@@ -116,14 +141,14 @@
                             <h6>By Brand</h6>
 
                             <ul class="top-list-box">
-                                <li><a id="header-cobia-cta" href="">Cobia</a></li>
-                                <li><a id="header-g3-boats-cta" href="">G3 Boats</a></li>
-                                <li><a id="header-key-west-cta" href="">Key West</a></li>
-                                <li><a id="header-waverick-cta" href="">Maverick</a></li>
-                                <li><a id="header-pathfinder-cta" href="">Pathfinder</a></li>
-                                <li><a id="header-sunCatcher-cta" href="">SunCatcher</a></li>
-                                <li><a id="header-sundance-cta" href="">Sundance</a></li>
-                                <li><a id="header-weldBilt-cta" href="">WeldBilt</a></li>
+                                <li><a id="header-cobia-cta" href="javascript:void(0)">Cobia</a></li>
+                                <li><a id="header-g3-boats-cta" href="javascript:void(0)">G3 Boats</a></li>
+                                <li><a id="header-key-west-cta" href="javascript:void(0)">Key West</a></li>
+                                <li><a id="header-waverick-cta" href="javascript:void(0)">Maverick</a></li>
+                                <li><a id="header-pathfinder-cta" href="javascript:void(0)">Pathfinder</a></li>
+                                <li><a id="header-sunCatcher-cta" href="javascript:void(0)">SunCatcher</a></li>
+                                <li><a id="header-sundance-cta" href="javascript:void(0)">Sundance</a></li>
+                                <li><a id="header-weldBilt-cta" href="javascript:void(0)">WeldBilt</a></li>
                             </ul>
                         </div>
 
@@ -234,7 +259,7 @@
                 <div class="mega-menu-container">
                     <div class="service-mega-menu">
 
-                        <a href="" class="service-dropdown-card">
+                        <a href="javascript:void(0)" class="service-dropdown-card">
                             <div class="service-mega-menu-img">
                                 <img src="./assets/images/mega-menu/service-dropdown-img-1.jpg" alt="">
                             </div>
@@ -244,7 +269,7 @@
                             </div>
                         </a>
 
-                        <a href="" class="service-dropdown-card">
+                        <a href="javascript:void(0)" class="service-dropdown-card">
                             <div class="service-mega-menu-img">
                                 <img src="./assets/images/mega-menu/service-dropdown-img-2.png" alt="">
                             </div>
@@ -254,7 +279,7 @@
                             </div>
                         </a>
 
-                        <a href="" class="service-dropdown-card">
+                        <a href="javascript:void(0)" class="service-dropdown-card">
                             <div class="service-mega-menu-img">
                                 <img src="./assets/images/mega-menu/service-dropdown-img-3.png" alt="">
                             </div>
@@ -270,278 +295,39 @@
 
         </div>
 
+        <div class="desktop-right-dropdown">
+            <ul class="larger-company-list">
+                <li><a class="" href="/">About Us</a></li>
+                <li><a class="" href="/">Adaptive Water Sports</a></li>
+                <li><a class="" href="/">Lessons</a></li>
+            </ul>
+
+            <ul class="smaller-company-list">
+                <li><a class="" href="/">News & Articles</a></li>
+                <li><a class="" href="/">Contact Us</a></li>
+            </ul>
+        </div>
+
     </div>
 
     <!-- desktop header ends here -->
 
 
-    <div class="home-banner">
-        <video autoplay loop playsinline muted poster="">
+        <div class="home-banner">
+        <video autoplay loop playsinline muted poster="./assets/images/home/header-poster-image.webp">
             <source src="./assets/videos/home-video/Centurion-Boats-video.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
         <div class="home-banner-content">
-            <h1 class="banner-title">Your Local Boat Experts</h1>
-            <h2 class="banner-subtitle">Sales & Service, All in One</h2>
+            <h1 class="banner-title">Family Owned & Operated since 1979</h1>
+            <div>
+                <a href="javascript:void(0)" class="theme-btn" id="home-shop-new-btn">Browse Boats</a>
+            </div>
         </div>
 
-        <div class="home-banner-btn">
-            <a href="javascript:void(0)" class="theme-outline-btn" id="home-shop-new-btn">Browse Boats</a>
-        </div>
+        
     </div>
-
-
-    <section class="brand-sec">
-        <div class="container-fluid">
-
-            <div class="row">
-                <div class="col-xl-9 m-auto">
-                    <ul class="brand-list">
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-1.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-2.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-3.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-4.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-5.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-6.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-7.png" alt="Cobalt_Logo "></a>
-                        </li>
-                        <li class="brand-items">
-                            <a href=""><img src="./assets/images/brands-logos/brand-icon-8.png" alt="Cobalt_Logo "></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="arrival-slider-sec">
-
-        <div class="arrival-slider-sec-header text-center">
-            <h3 class="section-title">NEW ARRIVALS</h3>
-        </div>
-
-        <div class="owl-carousel arrival-slider owl-theme">
-            <div class="item home-inventory-cards">
-                <div class="inventory-card-img">
-                    <a href="">
-                        <img src="./assets/images/dummy.png" alt="">
-                    </a>
-                </div>
-
-                <div class="boat-content-body">
-                    <h2 class="boat-title">
-                        <a href="">2021 Mastercraft X24</a>
-                    </h2>
-                    <h2 class="inventory-card-price">$123,456</h2>
-
-                    <ul class="boat-condition-list">
-                        <li class="specs-list-item"> Used</li>
-                        <li class="specs-list-item"> 24'</li>
-                        <li class="specs-list-item">159 hrs</li>
-                    </ul>
-
-                </div>
-            </div>
-
-            <div class="item home-inventory-cards">
-                <div class="inventory-card-img">
-                    <a href="">
-                        <img src="./assets/images/dummy.png" alt="">
-                    </a>
-                </div>
-
-                <div class="boat-content-body">
-                    <h2 class="boat-title">
-                        <a href="">2021 Mastercraft X24</a>
-                    </h2>
-                    <h2 class="inventory-card-price">$123,456</h2>
-
-                    <ul class="boat-condition-list">
-                        <li class="specs-list-item"> Used</li>
-                        <li class="specs-list-item"> 24'</li>
-                        <li class="specs-list-item">159 hrs</li>
-                    </ul>
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section class="featured-inventory-sec">
-        <div class="madis-container">
-
-            <div class="madis-col">
-                <div class="madis-col-img-box">
-                    <img src="./assets/images/home/inventory-featured-img-1.jpg" alt="">
-
-                    <div class="madis-col-content">
-                        <h3>NEW INVENTORY</h3>
-                        <a href="/new-boats-for-sale" class="theme-outline-btn">Browse New</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="madis-col">
-                <div class="madis-col-img-box">
-                    <img src="./assets/images/home/inventory-featured-img-2.png" alt="">
-
-                    <div class="madis-col-content">
-                        <h3>Pre-OWNED BOATS</h3>
-                        <a href="/used-pre-owned-boats-for-sale" class="theme-outline-btn">Browse Pre-Owned</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <div class="financing-sec">
-
-        <div class="financing-col">
-            <div class="sm-financing-sec">
-                <div class="financing-col-1">
-                    <img src="./assets/images/icons/home.svg" alt="">
-                </div>
-                <div class="financing-col-2">
-                    <h6>FINANCING</h6>
-                    <p><a href="/financing">Apply today</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="financing-col">
-            <div class="sm-financing-sec">
-                <div class="financing-col-1">
-                    <img src="./assets/images/icons/consign.svg" alt="">
-                </div>
-                <div class="financing-col-2">
-                    <h6>Consign / Trade</h6>
-                    <p><a href="">Sell or upgrade your boat</a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="financing-col">
-            <div class="sm-financing-sec">
-                <div class="financing-col-1">
-                    <img src="./assets/images/icons/events.svg" alt="">
-                </div>
-                <div class="financing-col-2">
-                    <h6>Events & Promos</h6>
-                    <p><a href="">Experience it</a></p>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <section class="home_services">
-        <div class="lg-card-container">
-            <div class="lg-card-row">
-                <div class="lg-card-col custom-prb">
-                    <a href="/boats-for-sale">
-                        <div class="hm_serviceBox">
-                            <span class="hms_title">Boat Sales</span>
-                            <div class="servc_img">
-                                <img class="lazy d-block d-md-none" src="./assets/images/home/lg-card-img-1.png"
-                                    alt="jmdlogo">
-                                <img class="lazy d-none d-md-block" src="./assets/images/home/lg-card-img-1.png"
-                                    alt="jmdlogo">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="lg-card-col custom-plb">
-                    <a href="/service">
-                        <div class="hm_serviceBox">
-                            <span class="hms_title">Trailer Sales</span>
-                            <div class="servc_img">
-                                <img class="lazy d-block d-md-none" src="./assets/images/home/lg-card-img-2.jpg"
-                                    alt="jmdlogo">
-                                <img class="lazy d-none d-md-block" src="./assets/images/home/lg-card-img-2.jpg"
-                                    alt="hms">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="lg-card-col custom-pr">
-                    <a href="/events">
-                        <div class="hm_serviceBox">
-                            <span class="hms_title">Outboard Sales & <br class="d-none d-xl-block"> Repower
-                                Service</span>
-                            <div class="servc_img">
-                                <img class="lazy d-block d-md-none" src="./assets/images/home/lg-card-img-3.jpg"
-                                    alt="jmdlogo">
-                                <img class="lazy d-none d-md-block" src="./assets/images/home/lg-card-img-3.jpg"
-                                    alt="hms_img3">
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="lg-card-col custom-pl">
-                    <a href="javascript:void(0)">
-                        <div class="hm_serviceBox">
-                            <span class="hms_title">Service Center</span>
-                            <div class="servc_img">
-                                <img class="lazy d-block d-md-none" src="./assets/images/home/lg-card-img-4.jpg"
-                                    alt="jmdlogo">
-                                <img class="lazy d-none d-md-block" src="./assets/images/home/lg-card-img-4.jpg"
-                                    alt="hms_img4">
-
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <secton class="doss-featured">
-        <div class="doss-container">
-            <div class="doss-featured-box">
-                <div class="doss-featured-col">
-                    <div class="doss-featured-img">
-                        <img src="https://cdn.mdsbrand.com/madis/assets/images/home/featured.png" alt="MADIS MARINE">
-                    </div>
-                </div>
-                <div class="doss-featured-col">
-                    <div class="content-box">
-                        <h3 class="fearured-title">WELCOME TO Century MARINE</h3>
-                        <div class="fearured-rich-text">
-                            <h6>Century Marine is your full-service marine destination in Newport News.</h6>
-                            <p>We offer top-quality boats, trailers, and outboards—carefully selected for performance
-                                and reliability. From sales and parts to expert service, our team is committed to
-                                delivering exceptional value and trusted support for all your boating and water sports
-                                needs. Prices include all applicable current rebates.</p>
-                        </div>
-
-                        <div>
-                            <a id="home-more-about-us" href="/about" class="theme-btn">More About Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </secton>
 
 
 
